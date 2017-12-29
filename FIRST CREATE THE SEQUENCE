@@ -1,0 +1,14 @@
+SQL> create sequence passport_seq start with 10000000 increment by 100;
+
+Sequence created.
+
+SQL> commit;
+
+Commit complete.
+SQL> select passport_seq.nextVal from dual;
+
+   NEXTVAL
+----------
+  10000000
+
+SQL>
