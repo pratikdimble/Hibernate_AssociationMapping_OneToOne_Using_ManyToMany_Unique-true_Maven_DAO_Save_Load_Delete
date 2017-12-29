@@ -7,7 +7,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.app.model.HallTicket;
+
 import com.app.model.Passport;
 import com.app.model.Person;
 import com.app.utility.HibernateUtil;
